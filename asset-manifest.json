@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SHPE/static/css/main.34c12082.css",
+    "main.js": "/SHPE/static/js/main.64ef8aca.js",
+    "static/media/outreach.jpg": "/SHPE/static/media/outreach.431fcdbd9475cb8d7d2f.jpg",
+    "static/media/springMeeting.png": "/SHPE/static/media/springMeeting.d06fe803a4fd70c9af09.png",
+    "static/media/bowling.jpg": "/SHPE/static/media/bowling.17be474483695f8ab301.jpg",
+    "static/media/beavs.png": "/SHPE/static/media/beavs.15276f7f5c941f84b9f4.png",
+    "static/media/osucampus.jpeg": "/SHPE/static/media/osucampus.6cb92db00bb3ef7398e8.jpeg",
+    "static/media/osu.png": "/SHPE/static/media/osu.8522766a184cee5aa51b.png",
+    "static/media/shpe.png": "/SHPE/static/media/shpe.571045e0c2bd27a67c51.png",
+    "index.html": "/SHPE/index.html",
+    "main.34c12082.css.map": "/SHPE/static/css/main.34c12082.css.map",
+    "main.64ef8aca.js.map": "/SHPE/static/js/main.64ef8aca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c12082.css",
+    "static/js/main.64ef8aca.js"
+  ]
+}
