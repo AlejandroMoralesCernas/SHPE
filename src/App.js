@@ -12,10 +12,10 @@ import SHPEtinas from './pages/SHPEtinas';
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename='/SHPE'>
         <Navbar/>
         <Routes>
-          <Route path='/SHPE/' element={<Home className='overflow-hidden'/>}/>
+          <Route path='/' element={<Home className='overflow-hidden'/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/calendar' element={<Calendar/>}/>
           <Route path='/event' element={<Event/>}/>
