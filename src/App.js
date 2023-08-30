@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home className='overflow-hidden'/>}/>
+          <Route path='/SHPE/' element={<Home className='overflow-hidden'/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/calendar' element={<Calendar/>}/>
           <Route path='/event' element={<Event/>}/>
