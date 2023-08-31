@@ -30,3 +30,7 @@ npx tailwindcss init
 npm install react-router-dom
 
 npm install gh-pages
+
+### Some things I've learned
+Tailwind is way better than styled componenets
+Github Pages blows for deployement. Netlify is way better.

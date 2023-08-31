@@ -12,7 +12,7 @@ import SHPEtinas from './pages/SHPEtinas';
 function App() {
   return (
     <div>
-      <Router basename='/SHPE'>
+      <Router>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home className='overflow-hidden'/>}/>
