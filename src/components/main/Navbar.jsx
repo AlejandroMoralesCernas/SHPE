@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         /* Navbar Container */
-        <div name="Navigation Bar" className='sticky top-[0] z-10 bg-white flex justify-between items-center w-full h-[100px] border-black border-b-2'>
+        <div name="Navigation Bar" className='sticky top-[0] z-10 bg-white flex justify-between items-center w-full h-[100px] shadow-md'>
 
             <Link name="Logo" className='cursor-pointer p-2 flex justify-center items-center h-[90px] hover:scale-105 duration-500' to='/' onClick={allOnClick}>
                 <img src={SHPELogo} alt="SHPE-logo" className='h-[60px]'/>
