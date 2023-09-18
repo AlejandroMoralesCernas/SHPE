@@ -14,9 +14,9 @@ const AllOfficers = () => {
     })
 
     return (
-        <div className='2xl:mb-20 m:mb-12 mb-8'>
-            <h1 className='text-center 2xl:text-5xl m:text-4xl text-3xl 2xl:m-10 m:mt-6 mt-4 '>Meet the Officers!</h1>
-            <div name="Card Container" className='flex flex-wrap justify-center gap-20 2xl:m-15 m:m-10 m-8'>
+        <div className='flex flex-col justify-center items-center md:my-[5rem] my-[3vh] md:gap-[5rem] gap-[3vh]'>
+            <h1 className='2xl:text-[3rem] text-[2.5rem]'>Meet the Officers</h1>
+            <div name="Card Container" className='grid 2xl:grid-cols-[repeat(4,minmax(0,_20rem))] xl:grid-cols-[repeat(3,minmax(0,_20rem))] md:grid-cols-[repeat(2,minmax(0,_20rem))] grid-cols-1 gap-[3rem]'>
                 {OfficerCards}
             </div>
         </div>
