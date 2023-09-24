@@ -1,16 +1,16 @@
 import React from 'react'
 import Card from './Card'
-import OfficerInfo from '../../data/info/officers/officerInfo.js'
+import {Officers} from '../../data/info/officers/officerInfo.js'
 
 const AllOfficers = () => {
-    const OfficerCards = OfficerInfo.map(data => {
+    const OfficerCards = Officers.map(data => {
         return <Card 
             officer={data.name} 
             position={data.position}
             major={data.major}
             linkedin={data.linkedin}
             img={"Placeholder.jpg"}
-            />
+        />
     })
 
     return (

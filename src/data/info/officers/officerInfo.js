@@ -1,4 +1,4 @@
-export default [
+export const Officers = [
     {
         id: 1,
         name: "Dennise Alvarado",
@@ -95,5 +95,4 @@ export default [
         linkedin: "https://www.linkedin.com/in/alejandro-morales-cernas/",
         portrait: ""
     }
-
 ]
