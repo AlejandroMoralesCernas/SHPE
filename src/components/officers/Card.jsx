@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaLinkedin} from 'react-icons/fa'
-import Test from "../../data/images/officers/Placeholder.jpg"
+import Test from "../../data/images/officers/duck.jpeg"
 
 const Card = (props) => {
     console.log(props.image)

@@ -74,7 +74,7 @@ export const Officers = [
     {
         id: 10,
         name: "America Pacheco",
-        position: "Executive Board Member",
+        position: "SHPEtina Co-Coordinator",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/america-x-pacheco/",
         portrait: ""
@@ -90,7 +90,7 @@ export const Officers = [
     {
         id: 12,
         name: "Alejandro Morales",
-        position: "Ecampus Liason",
+        position: "Ecampus Liaison",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/alejandro-morales-cernas/",
         portrait: ""
