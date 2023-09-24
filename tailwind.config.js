@@ -5,6 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'professional' : 'url(data/images/about/prof.jpg)',
+        'convention' : 'url(data/images/about/convention.png)',
+        'bowling' : 'url(data/images/about/bowling.png)'
+      },
       animation: {
         fade_in: "fade_in 2s",
         slide_right: "slide_right 1s",
@@ -43,8 +48,7 @@ module.exports = {
             opacity: 1,
             transform: `translateX(0)`
           }
-        }
-
+        },
       }
     }
   },
