@@ -22,7 +22,7 @@ const AboutOSU = () => {
             </div>
 
             <div name='RIGHT' className='flex-1 flex flex-col md:flex-row bg-white m-2 sm:m-12 px-2 sm:px-8 py-2 sm:py-4 rounded-[10%] border-[5px] border-black font-serif text-center'>
-                <div name="Left Mission" className='flex-1 mx-2 sm:mx-4 my-1 sm:my-12 bg-gray-200 rounded-md border-[2px] border-black p-2'>
+                <div name="Left Mission" className='flex-1 mx-2 sm:mx-4 my-1 lg:my-12 bg-gray-200 rounded-md border-[2px] border-black p-2'>
                     <h1 className='text-[18px] sm:text-[24px] 2xl:text-[30px] font-bold underline p-0 sm:p-4'>Our Mission</h1>
                     <p className='text-[10px] sm:text-[14px] 2xl:text-[18px]'>We want to provide opportunities for Hispanic students at
                     Oregon State University in terms thier professional career devlopment, strengthen
@@ -30,7 +30,7 @@ const AboutOSU = () => {
                     </p>
                 </div>
 
-                <div name="Right Vision" className='flex-1 mx-2 sm:mx-4 my-1 sm:my-12 bg-gray-200 rounded-md border-[2px] border-black p-2'>
+                <div name="Right Vision" className='flex-1 mx-2 sm:mx-4 my-1 lg:my-12 bg-gray-200 rounded-md border-[2px] border-black p-2'>
                     <h1 className='text-[18px] sm:text-[24px] 2xl:text-[30px] font-bold underline p-0 sm:p-4'>Our Vision</h1>
                     <p className='text-[10px] sm:text-[14px] 2xl:text-[18px]'>We want to create a Hispanic community that will lead
                     and create a purpose in the professional careers.

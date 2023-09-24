@@ -30,7 +30,7 @@ const AboutSHPE = () => {
                     <div className="absolute z-[-1] h-full w-full bg-[#ED5D29] transform -rotate-45 origin-bottom-left"></div>
                     <div className="absolute z-[-1] h-full w-full bg-[#ED5D29] transform -rotate-45 origin-top-right"></div>
                {/*  </div> */}
-                <div name="Left Mission" className='flex-1 mx-2 sm:mx-4 my-1 sm:my-12 bg-white rounded-md border-[2px] border-black p-2'>
+                <div name="Left Mission" className='flex-1 mx-2 sm:mx-4 my-1 lg:my-12 bg-white rounded-md border-[2px] border-black p-2'>
                     <h1 className='text-[18px] sm:text-[24px] 2xl:text-[30px] font-bold underline p-0 sm:p-4'>Mission Statement</h1>
                     <p className='text-[10px] sm:text-[14px] 2xl:text-[18px]'>SHPE changes lives by empowering the Hispanic community to
                     realize its fullest potential and to impact the world through STEM awareness, access,
@@ -38,7 +38,7 @@ const AboutSHPE = () => {
                     </p>
                 </div>
 
-                <div name="Right Vision" className='flex-1 mx-2 sm:mx-4 my-1 sm:my-12 bg-white rounded-md border-[2px] border-black p-2'>
+                <div name="Right Vision" className='flex-1 mx-2 sm:mx-4 my-1 lg:my-12 bg-white rounded-md border-[2px] border-black p-2'>
                     <h1 className='text-[18px] sm:text-[24px] 2xl:text-[30px] font-bold underline p-0 sm:p-4'>Vision Statement</h1>
                     <p className='text-[10px] sm:text-[14px] 2xl:text-[18px]'>SHPE's vision is a world where Hispanics are highly valued
                     and influential as the leading innovators, scientists, mathematicians, and engineers.
