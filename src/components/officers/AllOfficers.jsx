@@ -10,7 +10,7 @@ const AllOfficers = () => {
             position={data.position}
             major={data.major}
             linkedin={data.linkedin}
-            img={"Placeholder.jpg"}
+            img={data.portrait}
         />
     })
 
