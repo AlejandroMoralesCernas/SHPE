@@ -4,10 +4,10 @@
 
 @layer base {
     body {
-        @apply font-[Copperplate];
+        @apply font-[Roboto];
     }
     li {
-        @apply px-6;
+        @apply px-8;
         @apply cursor-pointer;
     }
 }
