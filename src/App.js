@@ -6,7 +6,6 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import About from './pages/About';
 import Calendar from './pages/Calendar';
 import Event from './pages/Event'
-import MentorSHPE from './pages/MentorSHPE';
 import Officers from './pages/Officers'
 import SHPEtinas from './pages/SHPEtinas';
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/calendar' element={<Calendar/>}/>
           <Route path='/event' element={<Event/>}/>
-          <Route path='/mentorshpe' element={<MentorSHPE/>}/>
           <Route path='/officers' element={<Officers/>}/>
           <Route path='/event' element={<Event/>}/>
           <Route path='/shpetinas' element={<SHPEtinas/>}/>
