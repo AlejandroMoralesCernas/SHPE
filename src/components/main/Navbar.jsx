@@ -36,7 +36,6 @@ const Navbar = () => {
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105'><Link onClick={scrollToTop} to='/officers'>OFFICERS</Link></li>
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105'><Link onClick={scrollToTop} to='/calendar'>CALENDAR</Link></li>
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105'><Link onClick={scrollToTop} to='/shpetinas'>SHPETINAS</Link></li>
-                <li className='duration-300 hover:text-[#ED5D29] hover:scale-105'><Link onClick={scrollToTop} to='/mentorshpe'>MENTORSHPE</Link></li>
             </ul>
 
             {/* Hamburger */}
@@ -51,7 +50,6 @@ const Navbar = () => {
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105 py-6'><Link to='/officers' onClick={allOnClick}>OFFICERS</Link></li>
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105 py-6'><Link to='/calendar' onClick={allOnClick}>CALENDAR</Link></li>
                 <li className='duration-300 hover:text-[#ED5D29] hover:scale-105 py-6'><Link to='/shpetinas' onClick={allOnClick}>SHPETINAS</Link></li>
-                <li className='duration-300 hover:text-[#ED5D29] hover:scale-105 py-6'><Link to='/mentorshpe' onClick={allOnClick}>MENTORSHPE</Link></li>
             </ul>
         </div>
     )
