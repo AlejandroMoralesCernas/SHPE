@@ -1,6 +1,4 @@
 import React from 'react'
-import SHPELogo from '../../data/images/about/shpe.png'
-import NationalLogo from '../../data/images/about/nationallogo.png'
 
 const AboutSHPE = () => {
     return (
@@ -8,8 +6,8 @@ const AboutSHPE = () => {
     
             <div name='LEFT' className='flex-1 font-serif text-center bg-white border-black rounded-[15%] m-2 sm:m-8 px-2 sm:px-8 py-2 sm:py-4 border-[5px] '>
                 <div name="Logos" className='flex justify-center items-center'>
-                    <img className='w-[200px] sm:w-[300px] mr-8' src={SHPELogo} alt="shpelogo"/>
-                    <img className='w-[100px] sm:w-[150px]' src={NationalLogo} alt="nationallogo"/>
+                    <img className='w-[200px] sm:w-[300px] mr-8' src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284021/about/shpe_pgzphx.webp"} alt="shpelogo"/>
+                    <img className='w-[100px] sm:w-[150px]' src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284020/about/nationallogo_dndfu3.webp"} alt="nationallogo"/>
                 </div>
                 <div name="Text for SHPE National" className='w-full'>
                     <h1 className='text-[18px] sm:text-[24px] 2xl:text-[30px] font-bold underline'>SHPE National</h1>

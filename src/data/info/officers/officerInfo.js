@@ -1,16 +1,3 @@
-import AliG from "../../images/officers/AliG.png"
-import Denisse from "../../images/officers/Denisse.jpg"
-import Germ from "../../images/officers/Germ.jpg"
-import Christian from "../../images/officers/Christian.jpeg"
-import Lesly from "../../images/officers/Lesly.jpg"
-import Omar from "../../images/officers/Omar.jpg"
-import Jorge from "../../images/officers/Jorge.jpg"
-import Keegan from "../../images/officers/Keegan.jpg"
-import Eric from "../../images/officers/Eric.jpeg"
-import Ruby from "../../images/officers/Ruby.jpg"
-import Andrea from "../../images/officers/Andrea.jpeg"
-import America from "../../images/officers/America.jpg"
-
 export const Officers = [
     {
         id: 1,
@@ -18,7 +5,7 @@ export const Officers = [
         position: "President",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/denissealvarado/",
-        portrait: Denisse
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277260/President.jpg"
     },
     {
         id: 2,
@@ -26,7 +13,7 @@ export const Officers = [
         position: "Vice President",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/german-juarez-724a0a233/",
-        portrait: Germ
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277261/VicePresident.jpg"
     },
     {
         id: 3,
@@ -34,7 +21,7 @@ export const Officers = [
         position: "Treasurer",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/christianeduardoflores/",
-        portrait: Christian
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277261/Treasurer.jpg"
     },
     {
         id: 4,
@@ -42,7 +29,7 @@ export const Officers = [
         position: "Secretary",
         major: "Electrical and Computer Engineering",
         linkedin: "https://www.linkedin.com/in/leslyrojascaloca/",
-        portrait: Lesly
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277262/Secretary.jpg"
     },
     {
         id: 5,
@@ -50,7 +37,7 @@ export const Officers = [
         position: "Outreach",
         major: "Civil Engineering",
         linkedin: "https://www.linkedin.com/in/omar-escobedo-729b65233/",
-        portrait: Omar
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277262/Outreach.jpg"
     },
     {
         id: 6,
@@ -58,7 +45,7 @@ export const Officers = [
         position: "Recruitment Chair",
         major: "Electrical and Computer Engineering",
         linkedin: "",
-        portrait: Jorge
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277261/Recruitment.jpg"
     },
     {
         id: 7,
@@ -66,7 +53,7 @@ export const Officers = [
         position: "Social Media Chair",
         major: "Chemical Engineering",
         linkedin: "https://www.linkedin.com/in/baltazar-flug-6086b0230/",
-        portrait: Keegan
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277261/SocialMedia.jpg"
     },
     {
         id: 8,
@@ -74,7 +61,7 @@ export const Officers = [
         position: "Fundraising Chair",
         major: "Mechanical Engineering",
         linkedin: "https://www.linkedin.com/in/andrea-fernando-campos/",
-        portrait: Andrea
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277260/Fundraising.jpg"
     },
     {
         id: 9,
@@ -82,7 +69,7 @@ export const Officers = [
         position: "Executive Board Member",
         major: "Construction Engineering and Management",
         linkedin: "https://www.linkedin.com/in/ruby-canchola-ascencio/",
-        portrait: Ruby
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277262/Executive.jpg"
     },
     {
         id: 10,
@@ -90,7 +77,7 @@ export const Officers = [
         position: "SHPEtina Co-Coordinator",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/america-x-pacheco/",
-        portrait: America
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277260/Shpetina.jpg"
     },
     {
         id: 11,
@@ -98,7 +85,7 @@ export const Officers = [
         position: "Graduate Chair",
         major: "Computer Science",
         linkedin: "",
-        portrait: Eric
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277260/Graduate.jpg"
     },
     {
         id: 12,
@@ -106,6 +93,6 @@ export const Officers = [
         position: "Ecampus Liaison",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/alejandro-morales-cernas/",
-        portrait: AliG
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696277260/EcampusLiaison.png"
     }
 ]

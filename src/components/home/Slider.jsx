@@ -1,9 +1,5 @@
 import React, {useState, useEffect, useCallback} from "react";
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
-import OSU from '../../data/images/home/osucampus.jpeg'
-import Bowling from '../../data/images/home/bowling.jpg'
-import Beavs from '../../data/images/home/beavs.png'
-import Outreach from '../../data/images/home/outreach.jpg'
 import "../../index.css";
 import { Link } from "react-router-dom";
 
@@ -77,13 +73,13 @@ const Slider = () => {
 
                 <div name="slide 1" className="flex-none relative w-full h-full duration-1000 ease-in-out" style={{transform: `translateX(-${slideIndex * 100}vw)`}}>
 
-                    <img src={OSU} alt="osu img" className="object-cover w-full h-full"/>
+                    <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283658/home/osucampus_uoouh4.jpg"} alt="osu img" className="object-cover w-full h-full"/>
 
                     {/* <div name="text-container" className={`${slideIndex === 0 ? "animate-fade_in": ""} text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center`}> */}
                     {/* <div name="text-container" className={`${slideIndex === 0 ? "animate-fade_in": ""} absolute flex flex-col items-center left-[15%] text-white h-full top-[20%]`}> */}
                     <div name="text-container" className={`${slideIndex === 0 ? "animate-fade_in": ""} absolute text-center top-0 left-0 w-full h-full flex flex-col text-white items-center justify-center`}>
                         <h1 name="title" className="lg:text-[80px] sm:text-[40px] text-[20px] outline-dark">OREGON STATE UNIVERSITY</h1>
-                        <img name="OSU Logo" alt="osu logo img" src={Beavs} className="sm:h-[250px] h-[150px] sm:w-[250px] w-[150px] sm:mt-[-40px] mt-[-20px] mb-[-20px]"/>
+                        <img name="OSU Logo" alt="osu logo img" src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283657/home/beavs_snafcn.png"} className="sm:h-[250px] h-[150px] sm:w-[250px] w-[150px] sm:mt-[-40px] mt-[-20px] mb-[-20px]"/>
                         <p name="description" className="sm:text-[40px] text-[18px] outline-dark">GO BEAVS!</p>
                         <Link onClick={scrollToTop} to='/about'>
                             <button to='/about' name="navigation-button" className="mt-4 text-black bg-white rounded-sm text-[20px] h-[50px] w-[200px] hover:scale-105 hover:bg-[#F28C28] duration-300 border-black border-[2px]">GET STARTED</button>
@@ -93,7 +89,7 @@ const Slider = () => {
 
                 <div name="slide 2" className="flex-none relative w-full h-full duration-1000 ease-in-out" style={{transform: `translateX(-${slideIndex * 100}vw)`}}>
 
-                    <img src={Bowling} alt="osu img" className="object-cover w-full h-full"/>
+                    <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283657/home/bowling_syozc4.jpg"} alt="osu img" className="object-cover w-full h-full"/>
 
                     {/* <div name="text-container" className={`${slideIndex === 1 ? "animate-fade_in": ""} absolute flex flex-col items-center sm:left-[30%] left-[10%] text-white h-full sm:top-[35%] top-[28%]`}> */}
                     <div name="text-container" className={`${slideIndex === 1 ? "animate-fade_in": ""} absolute text-center top-0 left-0 w-full h-full flex flex-col text-white items-center justify-center`}>
@@ -107,7 +103,7 @@ const Slider = () => {
 
                 <div name="slide 3" className="flex-none relative w-full h-full duration-1000 ease-in-out" style={{transform: `translateX(-${slideIndex * 100}vw)`}}>
 
-                    <img src={Outreach} alt="osu img" className="object-cover w-full h-full"/>
+                    <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283656/home/outreach_qfpgjx.jpg"} alt="osu img" className="object-cover w-full h-full"/>
 
                     {/* <div name="text-container" className={`${slideIndex === 2 ? "animate-fade_in": ""} absolute flex flex-col items-center sm:left-[25%] left-[15%] text-white h-full sm:top-[35%] top-[28%]`}> */}
                     <div name="text-container" className={`${slideIndex === 2 ? "animate-fade_in": ""} absolute text-center top-0 left-0 w-full h-full flex flex-col text-white items-center justify-center`}>

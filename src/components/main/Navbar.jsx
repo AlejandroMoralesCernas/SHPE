@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from "react-icons/fa"
-import OSULogo from "../../data/images/main/footer/osu.png"
-import SHPELogo from "../../data/images/main/footer/shpe.png"
 import {Link} from 'react-router-dom'
 
 const Navbar = () => {
@@ -23,9 +21,9 @@ const Navbar = () => {
         <div name="Navigation Bar" className='sticky top-[0] z-10 bg-white flex justify-between items-center w-full h-[100px] shadow-md'>
 
             <Link name="Logo" className='cursor-pointer p-2 flex justify-center items-center h-[90px] hover:scale-105 duration-500' to='/' onClick={allOnClick}>
-                <img src={SHPELogo} alt="SHPE-logo" className='h-[60px]'/>
+                <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283324/navbar/shpe_bo79k9.webp"} alt="SHPE-logo" className='h-[60px]'/>
                 <p className='p-2 text-[30px] scale-y-150'>|</p>
-                <img src={OSULogo} alt="OSU-logo" className='h-[60px]'/>
+                <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696283324/navbar/osu_1_mdsfan.png"} alt="OSU-logo" className='h-[60px]'/>
             </Link>
 
             {/* Menu for Navigation Bar */}
