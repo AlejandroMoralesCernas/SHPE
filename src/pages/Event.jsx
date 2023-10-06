@@ -35,16 +35,16 @@ const Event = () => {
         <div className='grid 2xl:grid-cols-4 lg:grid-cols-2 grid-cols-1 gap-[2rem]'>
           <img src="https://res.cloudinary.com/dy3nrj03h/image/upload/v1696306347/events/gala_1_uz97kw.png" 
           alt=""
-          className='2xl:h-[30rem] 2xl:w-[23rem] h-[40rem] w-[30rem] shadow-2xl'/>
+          className='2xl:h-[30rem] 2xl:w-[23rem] md:h-[40rem] md:w-[30rem] h-[105vw] w-[80vw] shadow-2xl'/>
           <img src="https://res.cloudinary.com/dy3nrj03h/image/upload/v1696306352/events/bowlingEve_1_zdljg8.png" 
           alt=""
-          className='2xl:h-[30rem] 2xl:w-[23rem] h-[40rem] w-[30rem] object-cover shadow-2xl'/>
+          className='2xl:h-[30rem] 2xl:w-[23rem] md:h-[40rem] md:w-[30rem] h-[105vw] w-[80vw] object-cover shadow-2xl'/>
           <img src="https://res.cloudinary.com/dy3nrj03h/image/upload/v1696306344/events/gradschool_1_jvftgd.png" 
           alt=""
-          className='2xl:h-[30rem] 2xl:w-[23rem] h-[40rem] w-[30rem] object-cover shadow-2xl'/>
+          className='2xl:h-[30rem] 2xl:w-[23rem] md:h-[40rem] md:w-[30rem] h-[105vw] w-[80vw] object-cover shadow-2xl'/>
           <img src="https://res.cloudinary.com/dy3nrj03h/image/upload/v1696306340/events/studysesh_1_ofsu35.png" 
           alt=""
-          className='2xl:h-[30rem] 2xl:w-[23rem] h-[40rem] w-[30rem] object-cover  shadow-2xl'/>
+          className='2xl:h-[30rem] 2xl:w-[23rem] md:h-[40rem] md:w-[30rem] h-[105vw] w-[80vw] object-cover  shadow-2xl'/>
         </div>
       </div>
 
