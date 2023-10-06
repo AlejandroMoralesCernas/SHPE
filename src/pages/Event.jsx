@@ -1,5 +1,4 @@
 import React from 'react'
-import Noches from '../data/images/events/noches.png'
 import ActivityContent from '../components/event/ActivityContent'
 import { Link } from 'react-router-dom'
 
