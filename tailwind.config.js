@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'professional' : 'url(data/images/about/prof.jpg)',
-        'convention' : 'url(data/images/about/convention.png)',
-        'bowling' : 'url(data/images/about/bowling.png)'
+        'professional' : 'url(https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284020/about/prof_lj7vqn.jpg)',
+        'convention' : 'url(https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284020/about/convention_mfmyla.png)',
+        'bowling' : 'url(https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284019/about/bowling_rilsj4.png)'
       },
       animation: {
         fade_in: "fade_in 2s",

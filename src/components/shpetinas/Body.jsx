@@ -1,5 +1,4 @@
 import React from 'react'
-import Patch from '../../data/images/shpetinas/pumpkinpatch.png'
 
 const Body = () => {
   return (
@@ -10,7 +9,7 @@ const Body = () => {
 
         <div name="Meeting Container" className='w-full flex sm:flex-row flex-col mt-4 bg-white'>
             <div name="Left Meeting Container" className='flex justify-center w-full items-center h-full flex-1 bg-white'>
-                <img src={Patch} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
+                <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696282790/shpetinas/pumpkinpatch_tmg4s5.png"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
             </div>
             <div name="Right Meeting Container" className='p-4 animate-slide_right flex-1 w-full font-serif bg-gray-200'>
                 <div name="Text Container" className='flex flex-col text-center h-full items-center justify-center'>
