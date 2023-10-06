@@ -15,3 +15,14 @@
 .outline-dark {
     text-shadow: 5px 5px 5px black;
 }
+
+.fundraiser:nth-child(1) {
+    order: 1;
+}
+
+@media (max-width: 1024px) {
+    .fundraiser:nth-child(1) {
+        order: 0;
+    }
+}
+
