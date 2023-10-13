@@ -6,7 +6,7 @@ const LatestMeeting = () => {
             <div name="Title" className='text-center text-white text-[40px] border-b-white border-b-[2px]'>
                 <h1>Upcoming Meeting!</h1>
             </div>
-
+            
             <div name="Meeting Container" className='w-full flex sm:flex-row flex-col mt-4 bg-white'>
                 <div name="Left Meeting Container" className='flex justify-center w-full items-center h-full flex-1 bg-white'>
                     <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1697226916/home/hpworkshop_jnmodz.jpg"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>

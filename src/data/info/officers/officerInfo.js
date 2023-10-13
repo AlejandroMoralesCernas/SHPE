@@ -57,7 +57,7 @@ export const Officers = [
     },
     {
         id: 8,
-        name: "Andrea Campos",
+        name: "Andrea Fernando Campos",
         position: "Fundraising Chair",
         major: "Mechanical Engineering",
         linkedin: "https://www.linkedin.com/in/andrea-fernando-campos/",
@@ -65,7 +65,7 @@ export const Officers = [
     },
     {
         id: 9,
-        name: "Ruby Canchola",
+        name: "Ruby Canchola Ascencio",
         position: "Executive Board Member",
         major: "Construction Engineering and Management",
         linkedin: "https://www.linkedin.com/in/ruby-canchola-ascencio/",
@@ -89,7 +89,7 @@ export const Officers = [
     },
     {
         id: 12,
-        name: "Alejandro Morales",
+        name: "Alejandro Morales Cernas",
         position: "Ecampus Liaison",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/alejandro-morales-cernas/",
