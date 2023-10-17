@@ -77,7 +77,7 @@ export const Officers = [
         position: "SHPEtina Coordinator",
         major: "Computer Science",
         linkedin: "https://www.linkedin.com/in/america-x-pacheco/",
-        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1696284768/officers/America_a0z2qs.jpg"
+        portrait: "https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1697509854/officers/meri_snsrjj.png"
     },
     {
         id: 11,
