@@ -9,13 +9,13 @@ const Body = () => {
 
         <div name="Meeting Container" className='w-full flex sm:flex-row flex-col mt-4 bg-white'>
             <div name="Left Meeting Container" className='flex justify-center w-full items-center h-full flex-1 bg-white'>
-                <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1697227476/shpetinas/pumpkinpath2023_t1bz49.png"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
+                <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1701450623/shpetinas/Cafe_w_SHPEtinas_-_Insta_amptas.png"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
             </div>
             <div name="Right Meeting Container" className='p-4 animate-slide_right flex-1 w-full font-serif bg-gray-200'>
                 <div name="Text Container" className='flex flex-col text-center h-full items-center justify-center'>
-                    <h1 name="Meeting Title" className='2xl:text-[70px] md:text-[40px] text-[20px]'>Pumpkin Patch!</h1>
-                    <h2 name="Meeting Time" className='2xl:text-[50px] md:text-[25px] text-[14px] italic'>4:00pm Melon Shack Oct. 21st</h2>
-                    <p name="Meeting Description" className='2xl:text-[30px] md:text-[18px] text-[10px] mt-2'>Join us to meet other SHPEtinas members!</p>
+                    <h1 name="Meeting Title" className='2xl:text-[70px] md:text-[40px] text-[20px]'>Cafecito Con SHPEtinas!</h1>
+                    <h2 name="Meeting Time" className='2xl:text-[50px] md:text-[25px] text-[14px] italic'>9:00am - 11am, December 5, Johnston 220A</h2>
+                    <p name="Meeting Description" className='2xl:text-[30px] md:text-[18px] text-[10px] mt-2'>Join us to meet other SHPEtinas members! Va aver Conchas!</p>
                 </div>
             </div>
         </div>

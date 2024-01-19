@@ -39,7 +39,7 @@ const Footer = () => {
 
         <div name="Right Quote of the Month" className='p-2 flex-1 text-center'>
             <h1 name="Quote Title" className='sm:text-[40px] text-[30px]'>Quote of the Month!</h1>
-            <p name="The Quote" className='mt-4 font-serif sm:text-[24px] text-[16px]'>"Ponte las Pilas"  -  AliG</p>
+            <p name="The Quote" className='mt-4 font-serif sm:text-[24px] text-[16px]'>"Change your mentallity and you'll change your reality"  -  AliG</p>
         </div>
     </div>
   )
