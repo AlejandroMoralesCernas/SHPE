@@ -4,7 +4,7 @@ const LatestMeeting = () => {
     return (
         <div name="LatestMeeting Container" className='w-full bg-[#1A2B52] py-2 px-16'>
             <div name="Title" className='text-center text-white text-[40px] border-b-white border-b-[2px]'>
-                <h1>Upcoming Meeting!</h1>
+                <h1>Upcoming Event!</h1>
             </div>
             
             <div name="Meeting Container" className='w-full flex sm:flex-row flex-col mt-4 bg-white'>
