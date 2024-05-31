@@ -13,7 +13,7 @@ const LatestMeeting = () => {
 
                 
                 <div name="Left Meeting Container" className='flex justify-center w-full items-center h-full flex-1 bg-white'>
-                    <img src={"https://res.cloudinary.com/dy3nrj03h/image/upload/q_auto:good/v1707164817/home/FAFSA_Financial_Workshop_Insta_kyaseq.png"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
+                    <img src={"https://res.cloudinary.com/ds69wvmtz/image/upload/v1712634344/v2gaozbpbw4jrnrucvln.jpg"} alt="meeting img" className="animate-slide_left p-4 object-cover h-full"/>
                 </div>
                 <div name="Right Meeting Container" className='p-4 animate-slide_right flex-1 w-full font-serif bg-gray-200'>
                     <div name="Text Container" className='flex flex-col text-center h-full items-center justify-center'>
