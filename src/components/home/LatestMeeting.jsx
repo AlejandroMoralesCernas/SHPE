@@ -17,9 +17,9 @@ const LatestMeeting = () => {
                 </div>
                 <div name="Right Meeting Container" className='p-4 animate-slide_right flex-1 w-full font-serif bg-gray-200'>
                     <div name="Text Container" className='flex flex-col text-center h-full items-center justify-center'>
-                        <h1 name="Meeting Title" className='2xl:text-[70px] md:text-[40px] text-[20px]'>FAFSA Readiness Workshop!</h1>
-                        <h2 name="Meeting Time" className='2xl:text-[50px] md:text-[25px] text-[14px] italic'>Thursday, February 8th @ 6pm</h2>
-                        <p name="Meeting Description" className='2xl:text-[30px] md:text-[18px] text-[10px] mt-2'>Join us to Learn More about this Years Changes to the FAFSA and Tips on how to be Better Prepared Financially!!</p>
+                        <h1 name="Meeting Title" className='2xl:text-[70px] md:text-[40px] text-[20px]'>Spring Events!</h1>
+                        <h2 name="Meeting Time" className='2xl:text-[50px] md:text-[25px] text-[14px] italic'>Location: TBD</h2>
+                        <p name="Meeting Description" className='2xl:text-[30px] md:text-[18px] text-[10px] mt-2'>Join us for any upcoming Events happening this Spring term!!</p>
                     </div>
                 </div>
                 </div>
